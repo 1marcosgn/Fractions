@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		7FFB2D13233ADC5F00918FCF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB2D12233ADC5F00918FCF /* main.swift */; };
+		7FFB2D1A233ADCB500918FCF /* ConsoleIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB2D19233ADCB500918FCF /* ConsoleIO.swift */; };
+		7FFB2D1C233B2EBB00918FCF /* Fraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB2D1B233B2EBB00918FCF /* Fraction.swift */; };
+		7FFB2D1E233B2F3D00918FCF /* Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB2D1D233B2F3D00918FCF /* Operations.swift */; };
+		7FFB2D20233B2F9900918FCF /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB2D1F233B2F9900918FCF /* Utils.swift */; };
+		7FFB2D6C233B3DEF00918FCF /* Fraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB2D1B233B2EBB00918FCF /* Fraction.swift */; };
+		7FFB2D6D233B3DF700918FCF /* FractionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB2D30233B342A00918FCF /* FractionTests.swift */; };
+		7FFB2D6F233B3E7300918FCF /* UtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB2D6E233B3E7300918FCF /* UtilsTests.swift */; };
+		7FFB2D70233B3E7700918FCF /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB2D1F233B2F9900918FCF /* Utils.swift */; };
+		7FFB2D73233B4C0000918FCF /* Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB2D1D233B2F3D00918FCF /* Operations.swift */; };
+		7FFB2D76233B4DF700918FCF /* OperationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB2D75233B4DF700918FCF /* OperationsTests.swift */; };
+		7FFB2D79233B525C00918FCF /* ConsoleIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB2D19233ADCB500918FCF /* ConsoleIO.swift */; };
+		7FFB2D7B233B528100918FCF /* ConsoleIOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFB2D7A233B528100918FCF /* ConsoleIOTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +37,28 @@
 /* Begin PBXFileReference section */
 		7FFB2D0F233ADC5F00918FCF /* Fractions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Fractions; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FFB2D12233ADC5F00918FCF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		7FFB2D19233ADCB500918FCF /* ConsoleIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleIO.swift; sourceTree = "<group>"; };
+		7FFB2D1B233B2EBB00918FCF /* Fraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fraction.swift; sourceTree = "<group>"; };
+		7FFB2D1D233B2F3D00918FCF /* Operations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operations.swift; sourceTree = "<group>"; };
+		7FFB2D1F233B2F9900918FCF /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		7FFB2D2C233B340B00918FCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FFB2D30233B342A00918FCF /* FractionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FractionTests.swift; sourceTree = "<group>"; };
+		7FFB2D64233B3DE200918FCF /* Fractions-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fractions-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FFB2D68233B3DE200918FCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FFB2D6E233B3E7300918FCF /* UtilsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilsTests.swift; sourceTree = "<group>"; };
+		7FFB2D75233B4DF700918FCF /* OperationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsTests.swift; sourceTree = "<group>"; };
+		7FFB2D7A233B528100918FCF /* ConsoleIOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleIOTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		7FFB2D0C233ADC5F00918FCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FFB2D61233B3DE200918FCF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +72,8 @@
 			isa = PBXGroup;
 			children = (
 				7FFB2D11233ADC5F00918FCF /* Fractions */,
+				7FFB2D29233B340B00918FCF /* Fractions-Tests */,
+				7FFB2D65233B3DE200918FCF /* Fractions-Tests */,
 				7FFB2D10233ADC5F00918FCF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				7FFB2D0F233ADC5F00918FCF /* Fractions */,
+				7FFB2D64233B3DE200918FCF /* Fractions-Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,8 +91,40 @@
 			isa = PBXGroup;
 			children = (
 				7FFB2D12233ADC5F00918FCF /* main.swift */,
+				7FFB2D19233ADCB500918FCF /* ConsoleIO.swift */,
+				7FFB2D1B233B2EBB00918FCF /* Fraction.swift */,
+				7FFB2D1D233B2F3D00918FCF /* Operations.swift */,
+				7FFB2D1F233B2F9900918FCF /* Utils.swift */,
+				7FFB2D21233B326500918FCF /* Tests */,
 			);
 			path = Fractions;
+			sourceTree = "<group>";
+		};
+		7FFB2D21233B326500918FCF /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7FFB2D30233B342A00918FCF /* FractionTests.swift */,
+				7FFB2D6E233B3E7300918FCF /* UtilsTests.swift */,
+				7FFB2D75233B4DF700918FCF /* OperationsTests.swift */,
+				7FFB2D7A233B528100918FCF /* ConsoleIOTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		7FFB2D29233B340B00918FCF /* Fractions-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7FFB2D2C233B340B00918FCF /* Info.plist */,
+			);
+			path = "Fractions-Tests";
+			sourceTree = "<group>";
+		};
+		7FFB2D65233B3DE200918FCF /* Fractions-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7FFB2D68233B3DE200918FCF /* Info.plist */,
+			);
+			path = "Fractions-Tests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +147,23 @@
 			productReference = 7FFB2D0F233ADC5F00918FCF /* Fractions */;
 			productType = "com.apple.product-type.tool";
 		};
+		7FFB2D63233B3DE200918FCF /* Fractions-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FFB2D69233B3DE200918FCF /* Build configuration list for PBXNativeTarget "Fractions-Tests" */;
+			buildPhases = (
+				7FFB2D60233B3DE200918FCF /* Sources */,
+				7FFB2D61233B3DE200918FCF /* Frameworks */,
+				7FFB2D62233B3DE200918FCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fractions-Tests";
+			productName = "Fractions-Tests";
+			productReference = 7FFB2D64233B3DE200918FCF /* Fractions-Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -93,6 +175,9 @@
 				ORGANIZATIONNAME = "Marcos Garcia";
 				TargetAttributes = {
 					7FFB2D0E233ADC5F00918FCF = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					7FFB2D63233B3DE200918FCF = {
 						CreatedOnToolsVersion = 10.2;
 					};
 				};
@@ -110,16 +195,46 @@
 			projectRoot = "";
 			targets = (
 				7FFB2D0E233ADC5F00918FCF /* Fractions */,
+				7FFB2D63233B3DE200918FCF /* Fractions-Tests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FFB2D62233B3DE200918FCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7FFB2D0B233ADC5F00918FCF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FFB2D20233B2F9900918FCF /* Utils.swift in Sources */,
+				7FFB2D1C233B2EBB00918FCF /* Fraction.swift in Sources */,
 				7FFB2D13233ADC5F00918FCF /* main.swift in Sources */,
+				7FFB2D1A233ADCB500918FCF /* ConsoleIO.swift in Sources */,
+				7FFB2D1E233B2F3D00918FCF /* Operations.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FFB2D60233B3DE200918FCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FFB2D7B233B528100918FCF /* ConsoleIOTests.swift in Sources */,
+				7FFB2D70233B3E7700918FCF /* Utils.swift in Sources */,
+				7FFB2D6C233B3DEF00918FCF /* Fraction.swift in Sources */,
+				7FFB2D73233B4C0000918FCF /* Operations.swift in Sources */,
+				7FFB2D6D233B3DF700918FCF /* FractionTests.swift in Sources */,
+				7FFB2D79233B525C00918FCF /* ConsoleIO.swift in Sources */,
+				7FFB2D76233B4DF700918FCF /* OperationsTests.swift in Sources */,
+				7FFB2D6F233B3E7300918FCF /* UtilsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +361,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PF5L22BF84;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -256,6 +372,43 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PF5L22BF84;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7FFB2D6A233B3DE200918FCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PF5L22BF84;
+				INFOPLIST_FILE = "Fractions-Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marcosgn1.Fractions-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7FFB2D6B233B3DE200918FCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PF5L22BF84;
+				INFOPLIST_FILE = "Fractions-Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marcosgn1.Fractions-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -278,6 +431,15 @@
 			buildConfigurations = (
 				7FFB2D17233ADC5F00918FCF /* Debug */,
 				7FFB2D18233ADC5F00918FCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FFB2D69233B3DE200918FCF /* Build configuration list for PBXNativeTarget "Fractions-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FFB2D6A233B3DE200918FCF /* Debug */,
+				7FFB2D6B233B3DE200918FCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

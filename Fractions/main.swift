@@ -8,5 +8,9 @@
 
 import Foundation
 
-print("Hello, World!")
+let panagram = Fractions()
+if CommandLine.argc < 2 {
+    panagram.interactiveMode()
+}
+
 
